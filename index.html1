@@ -71,7 +71,7 @@
         <a href="#bachelor">البكالوريوس</a>
         <a href="#diploma">الدبلوم</a>
         <a href="#guidance">الإرشاد</a>
-        <a href="#registration">سجل بياناتك</a>
+        <a href="#registration">سجّل بياناتك</a>
     </nav>
 
     <section id="bachelor">
@@ -93,6 +93,7 @@
         <h2>سجّل بياناتك الآن</h2>
         <p>تعبئة البيانات تساعدنا على التواصل معك ومعرفة اهتماماتك.</p>
 
+        <!-- Google Form المدمج -->
         <iframe 
             src="https://docs.google.com/forms/d/e/1FAIpQLSfQOZMJr08w8IQg5yTs1gkja-w6m7YBbbD2xRnxCA3FM6JJ7Q/viewform?embedded=true" 
             width="640" 
