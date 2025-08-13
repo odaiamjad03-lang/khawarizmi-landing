@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كلية الخوارزمي الجامعية التقنية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #003f6d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            background-color: #005A9C;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #003f6d;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+        /* فورم Google */
+        #registration iframe {
+            border: none;
+            max-width: 100%;
+        }
+        footer {
+            background-color: #003f6d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>كلية الخوارزمي الجامعية التقنية</h1>
+        <p>جاهز للمستقبل 🚀</p>
+    </header>
+
+    <nav>
+        <a href="#bachelor">البكالوريوس</a>
+        <a href="#diploma">الدبلوم</a>
+        <a href="#guidance">الإرشاد</a>
+        <a href="#registration">سجل بياناتك</a>
+    </nav>
+
+    <section id="bachelor">
+        <h2>برامج البكالوريوس</h2>
+        <p>هندسة العمارة، الهندسة المدنية، الهندسة الميكانيكية، تصميم داخلي، تكنولوجيا الوسائط المتعددة، التصميم الجرافيكي، الأمن السيبراني، الإذاعة والتلفزيون.</p>
+    </section>
+
+    <section id="diploma">
+        <h2>برامج الدبلوم</h2>
+        <p>مجموعة متنوعة من برامج الدبلوم التقنية المتخصصة.</p>
+    </section>
+
+    <section id="guidance">
+        <h2>بوث الإرشاد</h2>
+        <p>هنا يمكنك طرح أسئلتك حول التخصصات المختلفة وسنجيبك فورًا.</p>
+    </section>
+
+    <section id="registration" style="text-align:center; margin:50px 0;">
+        <h2>سجّل بياناتك الآن</h2>
+        <p>تعبئة البيانات تساعدنا على التواصل معك ومعرفة اهتماماتك.</p>
+
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfQOZMJr08w8IQg5yTs1gkja-w6m7YBbbD2xRnxCA3FM6JJ7Q/viewform?embedded=true" 
+            width="640" 
+            height="900" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+            جاري التحميل…
+        </iframe>
+    </section>
+
+    <footer>
+        &copy; 2025 كلية الخوارزمي الجامعية التقنية
+    </footer>
+</body>
+</html>
