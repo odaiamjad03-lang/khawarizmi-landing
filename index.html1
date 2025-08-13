@@ -1,112 +1,76 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>كلية الخوارزمي الجامعية التقنية</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #003f6d;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-        nav {
-            background-color: #005A9C;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            color: #003f6d;
-        }
-        p {
-            font-size: 1.1rem;
-        }
-        /* فورم Google */
-        #registration iframe {
-            border: none;
-            max-width: 100%;
-        }
-        footer {
-            background-color: #003f6d;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>كلية الخوارزمي الجامعية التقنية</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+    header { background:#003f6d; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:2rem; }
+    nav { background:#005A9C; display:flex; justify-content:center; padding:10px 0; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    section { padding:40px 20px; max-width:900px; margin:auto; }
+    h2 { color:#003f6d; }
+    p { font-size:1.1rem; }
+    form { display:flex; flex-direction:column; max-width:500px; margin:auto; }
+    input, textarea, select, button { margin:10px 0; padding:10px; font-size:1rem; }
+    button { background:#003f6d; color:white; border:none; cursor:pointer; }
+    button:hover { background:#005A9C; }
+    #confirmation { color: green; font-weight: bold; margin-top: 20px; text-align:center; }
+    footer { background:#003f6d; color:white; text-align:center; padding:15px; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>كلية الخوارزمي الجامعية التقنية</h1>
-        <p>جاهز للمستقبل 🚀</p>
-    </header>
+  <header>
+    <h1>كلية الخوارزمي الجامعية التقنية</h1>
+    <p>جاهز للمستقبل 🚀</p>
+  </header>
 
-    <nav>
-        <a href="#bachelor">البكالوريوس</a>
-        <a href="#diploma">الدبلوم</a>
-        <a href="#guidance">الإرشاد</a>
-        <a href="#registration">سجّل بياناتك</a>
-    </nav>
+  <nav>
+    <a href="#bachelor">البكالوريوس</a>
+    <a href="#diploma">الدبلوم</a>
+    <a href="#guidance">الإرشاد</a>
+    <a href="#registration">سجّل بياناتك</a>
+  </nav>
 
-    <section id="bachelor">
-        <h2>برامج البكالوريوس</h2>
-        <p>هندسة العمارة، الهندسة المدنية، الهندسة الميكانيكية، تصميم داخلي، تكنولوجيا الوسائط المتعددة، التصميم الجرافيكي، الأمن السيبراني، الإذاعة والتلفزيون.</p>
-    </section>
+  <section id="bachelor">
+    <h2>برامج البكالوريوس</h2>
+    <p>هندسة العمارة، الهندسة المدنية، الهندسة الميكانيكية، تصميم داخلي، تكنولوجيا الوسائط المتعددة، التصميم الجرافيكي، الأمن السيبراني، الإذاعة والتلفزيون.</p>
+  </section>
 
-    <section id="diploma">
-        <h2>برامج الدبلوم</h2>
-        <p>مجموعة متنوعة من برامج الدبلوم التقنية المتخصصة.</p>
-    </section>
+  <section id="diploma">
+    <h2>برامج الدبلوم</h2>
+    <p>مجموعة متنوعة من برامج الدبلوم التقنية المتخصصة.</p>
+  </section>
 
-    <section id="guidance">
-        <h2>بوث الإرشاد</h2>
-        <p>هنا يمكنك طرح أسئلتك حول التخصصات المختلفة وسنجيبك فورًا.</p>
-    </section>
+  <section id="guidance">
+    <h2>بوث الإرشاد</h2>
+    <p>هنا يمكنك طرح أسئلتك حول التخصصات المختلفة وسنجيبك فورًا.</p>
+  </section>
 
-    <section id="registration" style="text-align:center; margin:50px 0;">
-        <h2>سجّل بياناتك الآن</h2>
-        <p>تعبئة البيانات تساعدنا على التواصل معك ومعرفة اهتماماتك.</p>
+  <section id="registration" style="text-align:center; margin:50px 0;">
+    <h2>سجّل بياناتك الآن</h2>
+    <p>تعبئة البيانات تساعدنا على التواصل معك ومعرفة اهتماماتك.</p>
 
-        <!-- Google Form المدمج -->
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfQOZMJr08w8IQg5yTs1gkja-w6m7YBbbD2xRnxCA3FM6JJ7Q/viewform?embedded=true" 
-            width="640" 
-            height="900" 
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0">
-            جاري التحميل…
-        </iframe>
-    </section>
+    <!-- الفورم المباشر المرتبط بـ Google Form -->
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQOZMJr08w8IQg5yTs1gkja-w6m7YBbbD2xRnxCA3FM6JJ7Q/formResponse" method="POST" target="hidden_iframe" onsubmit="showConfirmation()">
+      <input type="text" name="entry.1234567890" placeholder="الاسم" required>
+      <input type="email" name="entry.0987654321" placeholder="الإيميل" required>
+      <select name="entry.1122334455" required>
+        <option value="">اختر التخصص</option>
+        <option value="هندسة العمارة">هندسة العمارة</option>
+        <option value="الهندسة المدنية">الهندسة المدنية</option>
+        <option value="الهندسة الميكانيكية">الهندسة الميكانيكية</option>
+        <option value="تصميم داخلي">تصميم داخلي</option>
+        <option value="تكنولوجيا الوسائط المتعددة">تكنولوجيا الوسائط المتعددة</option>
+        <option value="التصميم الجرافيكي">التصميم الجرافيكي</option>
+        <option value="الأمن السيبراني">الأمن السيبراني</option>
+        <option value="الإذاعة والتلفزيون">الإذاعة والتلفزيون</option>
+      </select>
+      <textarea name="entry.5566778899" placeholder="ملاحظات" rows="4"></textarea>
+      <button type="submit">إرسال</button>
+    </form>
 
-    <footer>
-        &copy; 2025 كلية الخوارزمي الجامعية التقنية
-    </footer>
-</body>
-</html>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display
