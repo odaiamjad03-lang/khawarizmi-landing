@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>كلية الخوارزمي - جاهز للمستقبل</title>
+<style>
+  body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f4f8; color: #222; margin: 0; padding: 0;}
+  header {background: #005A9C; color: white; padding: 1rem; text-align: center;}
+  h1 {margin: 0; font-size: 1.8rem;}
+  .container {max-width: 600px; margin: 2rem auto; background: white; padding: 1rem 2rem; border-radius: 8px; box-shadow: 0 0 10px #ccc;}
+  .section {margin-bottom: 1.5rem;}
+  h2 {color: #005A9C; margin-bottom: 0.5rem;}
+  ul {list-style: none; padding: 0;}
+  li {margin-bottom: 0.4rem;}
+  a {color: #007ACC; text-decoration: none; font-weight: bold;}
+  a:hover {text-decoration: underline;}
+  .btn-follow {background: #007ACC; color: white; padding: 0.6rem 1.2rem; border-radius: 4px; display: inline-block; margin-top: 1rem;}
+  .map-img {width: 100%; border-radius: 8px; margin-top: 0.5rem;}
+  form {display: flex; flex-direction: column;}
+  input, textarea {padding: 0.6rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem;}
+  button {background: #005A9C; color: white; border: none; padding: 0.8rem; font-size: 1rem; cursor: pointer; border-radius: 4px;}
+  button:hover {background: #003f6d;}
+  footer {text-align: center; font-size: 0.9rem; color: #666; margin: 2rem 0 1rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>كلية الخوارزمي الجامعية التقنية</h1>
+  <p>جاهز للمستقبل 🚀</p>
+</header>
+
+<div class="container">
+
+  <section class="section intro">
+    <h2>مرحباً بك في معرض "عينك عالمستقبل"</h2>
+    <p>زورنا في ثلاثة بوثات مليئة بالتجارب والأنشطة التي ستقربك من مستقبلك الأكاديمي والمهني.</p>
+  </section>
+
+  <section class="section map">
+    <h2>خريطة البوثات</h2>
+    <img src="https://i.ibb.co/vzWvM2k/booths-map.png" alt="خريطة البوثات" class="map-img" />
+    <ul>
+      <li>بوث البكالوريوس: تعرف على تخصصات الهندسة، التصميم، الإعلام، والأمن السيبراني</li>
+      <li>بوث الدبلوم: اكتشف مهارات جديدة وفرص التعليم المهني</li>
+      <li>بوث الإرشاد: استفسر عن تخصصاتك وتحدث مع فريقنا للإرشاد الأكاديمي</li>
+    </ul>
+  </section>
+
+  <section class="section majors">
+    <h2>تخصصات البكالوريوس الرئيسية</h2>
+    <ul>
+      <li>هندسة العمارة</li>
+      <li>الهندسة المدنية</li>
+      <li>الهندسة الميكانيكية</li>
+      <li>تصميم داخلي</li>
+      <li>تكنولوجيا الوسائط المتعددة</li>
+      <li>التصميم الجرافيكي</li>
+      <li>الأمن السيبراني</li>
+      <li>الإعلام والتلفزيون</li>
+    </ul>
+  </section>
+
+  <section class="section instagram">
+    <h2>تابعنا على إنستغرام</h2>
+    <a href="https://www.instagram.com/kutc.jo" target="_blank" class="btn-follow">@kutc.jo</a>
+  </section>
+
+  <section class="section contact">
+    <h2>هل لديك أسئلة؟ تواصل معنا!</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="اسمك" required />
+      <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
+      <textarea name="message" placeholder="اكتب سؤالك هنا..." rows="4" required></textarea>
+      <button type="submit">أرسل</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 كلية الخوارزمي الجامعية التقنية</p>
+</footer>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('شكراً لتواصلك! سنرد عليك قريباً.');
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
