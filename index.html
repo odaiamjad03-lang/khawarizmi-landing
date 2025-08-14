@@ -68,14 +68,44 @@ index.html
     <a href="https://www.instagram.com/kutc.jo" target="_blank" class="btn-follow">@kutc.jo</a>
   </section>
 
-  <section class="section contact">
-    <h2>هل لديك أسئلة؟ تواصل معنا!</h2>
-    <form id="contact-form">
-      <input type="text" name="name" placeholder="اسمك" required />
-      <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
-      <textarea name="message" placeholder="اكتب سؤالك هنا..." rows="4" required></textarea>
-      <button type="submit">أرسل</button>
-    </form>
+
+
+
+<section class="section contact">
+  <h2>هل لديك أسئلة؟ تواصل معنا!</h2>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="اسمك" required />
+    <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
+    <textarea name="message" placeholder="اكتب سؤالك هنا..." rows="4" required></textarea>
+    <button type="submit">أرسل</button>
+  </form>
+</section>
+
+<script>
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const name = form.elements['name'].value;
+  const email = form.elements['email'].value;
+  const message = form.elements['message'].value;
+
+  const url = "https://docs.google.com/forms/d/e/1FAIpQLSfQOZMJr08w8IQg5yTs1gkja-w6m7YBbbD2xRnxCA3FM6JJ7Q/viewform?usp=header"; // ضع رابط الفورم هنا بدون /viewform
+  const data = new URLSearchParams();
+  data.append("entry.123456", name);     // ضع رقم entry الصحيح لكل حقل
+  data.append("entry.654321", email);
+  data.append("entry.987654", message);
+
+  fetch(url, { method: "POST", body: data, mode: "no-cors" })
+    .then(() => alert("تم إرسال رسالتك!"))
+    .catch(err => console.error(err));
+});
+</script>
+
+
+
+  
   </section>
 
 </div>
